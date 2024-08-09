@@ -1,0 +1,15 @@
+DisilBERT logs:
+ 1 convert squad examples to features: 100%|██████████| 81/81 [00:00<00:00, 391.64it/s]
+ 2 add example index and unique id: 100%|██████████| 81/81 [00:00<00:00, 716748.15it/s]
+ 3 add example index and unique id:   0%|          | 0/81 [00:00<?, ?it/s]
+ 4 Running Evaluation: 100%|██████████| 1/1 [00:06<00:00,  6.66s/it]
+ 5 Running Evaluation: 100%|██████████| 1/1 [00:06<00:00,  6.51s/it]
+ 6 Running Evaluation:   0%|          | 0/1 [00:00<?, ?it/s]
+ 7 Epochs 3/3. Running Loss:    1.1818: 100%|██████████| 14/14 [00:30<00:00,  2.14s/it]
+ 8 convert squad examples to features: 100%|██████████| 1/1 [00:00<00:00, 437.82it/s]
+ 9 {'context': 'The Fisherman s Wharf For Seafood Lovers This place has been attracting crowds for years now While Salcette offers a decor and serves delicious tandoori pomfret masala fried prawns and fish curry rice Live performances add up to the fun at this beautiful place On Sundays you can enjoy the live performances during lunch hours as well The view of backwaters make the moments memorable for lifetime So next time you are in Goa don t forget to add this to your list of places to visit in Goa Location Behind The Leela Mobor Cavelossim Goa Timings AM all days of the week How To Reach The place is by road Price For Two INR 1500', 'qas': [{'id': '011', 'is_impossible': False, 'question': 'What is the name of the attraction?', 'answers': [{'text': "The Fisherman's Wharf", 'answer_start': 0}]}]}
+10 ([{'id': '011', 'answer': ['The Fisherman', 'The', 'The Fisherman s Wharf For']}], [{'id': '011', 'probability': [0.4873323617507335, 0.26063586780803966, 0.2511648080568431]}])
+11 add example index and unique id: 100%|██████████| 1/1 [00:00<00:00, 18477.11it/s]
+12 Running Prediction: 100%|██████████| 1/1 [00:00<00:00, 11.03it/s]
+13 model.safetensors: 100%|██████████| 265M/265M [01:34<00:00, 2.82MB/s]
+14 Model pushed to Hugging Face Hub
